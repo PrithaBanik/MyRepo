@@ -1,0 +1,308 @@
+2019-12-25 19:02:44.119  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Starting Backend1Application on W1862368 with PID 20776 (C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes started by PB077048 in C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1)
+2019-12-25 19:02:44.119  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : No active profile set, falling back to default profiles: default
+2019-12-25 19:02:44.304  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2019-12-25 19:02:44.315  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 MongoDB repository interfaces.
+2019-12-25 19:02:44.390  WARN 20776 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-25 19:02:44.404  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-25 19:02:44.406  INFO 20776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-25 19:02:44.406  INFO 20776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 19:02:44.438  INFO 20776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-25 19:02:44.439  INFO 20776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 317 ms
+2019-12-25 19:02:44.459  INFO 20776 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-12-25 19:02:44.460  INFO 20776 --- [restartedMain] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-12-25 19:02:44.472  INFO 20776 --- [cluster-ClusterId{value='5e0364fc816e294a32184091', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:20}] to localhost:27017
+2019-12-25 19:02:44.475  INFO 20776 --- [cluster-ClusterId{value='5e0364fc816e294a32184091', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1073100}
+2019-12-25 19:02:44.476  INFO 20776 --- [cluster-ClusterId{value='5e0364fc816e294a32184091', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-12-25 19:02:44.495  INFO 20776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-25 19:02:44.593  INFO 20776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 19:02:44.643  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-25 19:02:44.644  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Started Backend1Application in 0.563 seconds (JVM running for 177.873)
+2019-12-25 19:02:44.645  INFO 20776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-25 19:09:51.650  INFO 20776 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 19:09:51.907  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Starting Backend1Application on W1862368 with PID 20776 (C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes started by PB077048 in C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1)
+2019-12-25 19:09:51.908  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : No active profile set, falling back to default profiles: default
+2019-12-25 19:09:52.080  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2019-12-25 19:09:52.090  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 1 MongoDB repository interfaces.
+2019-12-25 19:09:52.142  WARN 20776 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-25 19:09:52.154  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-25 19:09:52.155  INFO 20776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-25 19:09:52.155  INFO 20776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 19:09:52.187  INFO 20776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-25 19:09:52.187  INFO 20776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 276 ms
+2019-12-25 19:09:52.197  WARN 20776 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'patientController': Unsatisfied dependency expressed through field 'pservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceImplementation' defined in file [C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes\com\cerner\backendmain1\services\ServiceImplementation.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cerner.backendmain1.services.ServiceImplementation]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+2019-12-25 19:09:52.197  INFO 20776 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-25 19:09:52.204  INFO 20776 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-25 19:09:52.215 ERROR 20776 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'patientController': Unsatisfied dependency expressed through field 'pservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceImplementation' defined in file [C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes\com\cerner\backendmain1\services\ServiceImplementation.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cerner.backendmain1.services.ServiceImplementation]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.cerner.backendmain1.Backend1Application.main(Backend1Application.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceImplementation' defined in file [C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes\com\cerner\backendmain1\services\ServiceImplementation.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cerner.backendmain1.services.ServiceImplementation]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cerner.backendmain1.services.ServiceImplementation]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 35 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at com.cerner.backendmain1.services.ServiceImplementation.<init>(ServiceImplementation.java:5) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 37 common frames omitted
+
+2019-12-25 19:10:40.302  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Starting Backend1Application on W1862368 with PID 20776 (C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes started by PB077048 in C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1)
+2019-12-25 19:10:40.302  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : No active profile set, falling back to default profiles: default
+2019-12-25 19:10:40.455  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2019-12-25 19:10:40.464  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 1 MongoDB repository interfaces.
+2019-12-25 19:10:40.509  WARN 20776 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-25 19:10:40.522  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-25 19:10:40.523  INFO 20776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-25 19:10:40.523  INFO 20776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 19:10:40.541  INFO 20776 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-12-25 19:10:40.541  INFO 20776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 237 ms
+2019-12-25 19:10:40.548  WARN 20776 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'patientController': Unsatisfied dependency expressed through field 'pservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceImplementation' defined in file [C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes\com\cerner\backendmain1\services\ServiceImplementation.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cerner.backendmain1.services.ServiceImplementation]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+2019-12-25 19:10:40.549  INFO 20776 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-25 19:10:40.552  INFO 20776 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-25 19:10:40.554 ERROR 20776 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'patientController': Unsatisfied dependency expressed through field 'pservice'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceImplementation' defined in file [C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes\com\cerner\backendmain1\services\ServiceImplementation.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cerner.backendmain1.services.ServiceImplementation]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.cerner.backendmain1.Backend1Application.main(Backend1Application.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceImplementation' defined in file [C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes\com\cerner\backendmain1\services\ServiceImplementation.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cerner.backendmain1.services.ServiceImplementation]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cerner.backendmain1.services.ServiceImplementation]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 35 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import org.apache.log4j cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at com.cerner.backendmain1.services.ServiceImplementation.<init>(ServiceImplementation.java:5) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 37 common frames omitted
+
+2019-12-25 19:14:51.927  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Starting Backend1Application on W1862368 with PID 20776 (C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes started by PB077048 in C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1)
+2019-12-25 19:14:51.927  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : No active profile set, falling back to default profiles: default
+2019-12-25 19:14:52.064  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2019-12-25 19:14:52.073  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 1 MongoDB repository interfaces.
+2019-12-25 19:14:52.113  WARN 20776 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-25 19:14:52.131  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-25 19:14:52.132  INFO 20776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-25 19:14:52.132  INFO 20776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 19:14:52.151  INFO 20776 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-12-25 19:14:52.152  INFO 20776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 223 ms
+2019-12-25 19:14:52.163  INFO 20776 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-12-25 19:14:52.164  INFO 20776 --- [restartedMain] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-12-25 19:14:52.169  INFO 20776 --- [cluster-ClusterId{value='5e0367d4816e294a32184092', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:45}] to localhost:27017
+2019-12-25 19:14:52.171  INFO 20776 --- [cluster-ClusterId{value='5e0367d4816e294a32184092', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=537500}
+2019-12-25 19:14:52.172  INFO 20776 --- [cluster-ClusterId{value='5e0367d4816e294a32184092', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-12-25 19:14:52.182  INFO 20776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-25 19:14:52.229  INFO 20776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 19:14:52.267  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-25 19:14:52.268  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Started Backend1Application in 0.375 seconds (JVM running for 905.498)
+2019-12-25 19:14:52.269  INFO 20776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-25 19:18:16.175  INFO 20776 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 19:18:16.678  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Starting Backend1Application on W1862368 with PID 20776 (C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes started by PB077048 in C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1)
+2019-12-25 19:18:16.680  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : No active profile set, falling back to default profiles: default
+2019-12-25 19:18:17.008  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2019-12-25 19:18:17.026  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 1 MongoDB repository interfaces.
+2019-12-25 19:18:17.125  WARN 20776 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-25 19:18:17.149  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-25 19:18:17.150  INFO 20776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-25 19:18:17.150  INFO 20776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 19:18:17.185  INFO 20776 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-12-25 19:18:17.185  INFO 20776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 499 ms
+2019-12-25 19:18:17.205  INFO 20776 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-12-25 19:18:17.206  INFO 20776 --- [restartedMain] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-12-25 19:18:17.212  INFO 20776 --- [cluster-ClusterId{value='5e0368a1816e294a32184093', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:53}] to localhost:27017
+2019-12-25 19:18:17.215  INFO 20776 --- [cluster-ClusterId{value='5e0368a1816e294a32184093', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=946300}
+2019-12-25 19:18:17.216  INFO 20776 --- [cluster-ClusterId{value='5e0368a1816e294a32184093', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-12-25 19:18:17.240  INFO 20776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-25 19:18:17.329  INFO 20776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 19:18:17.406  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-25 19:18:17.407  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Started Backend1Application in 0.786 seconds (JVM running for 1110.637)
+2019-12-25 19:18:17.409  INFO 20776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-25 19:18:25.264  INFO 20776 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-25 19:18:25.533  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Starting Backend1Application on W1862368 with PID 20776 (C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1\target\classes started by PB077048 in C:\Users\PB077048\Documents\workspace-sts-3.9.10.RELEASE\backend-1)
+2019-12-25 19:18:25.533  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : No active profile set, falling back to default profiles: default
+2019-12-25 19:18:25.700  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2019-12-25 19:18:25.710  INFO 20776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 MongoDB repository interfaces.
+2019-12-25 19:18:25.761  WARN 20776 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-25 19:18:25.775  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-25 19:18:25.776  INFO 20776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-25 19:18:25.776  INFO 20776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 19:18:25.800  INFO 20776 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-12-25 19:18:25.801  INFO 20776 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 266 ms
+2019-12-25 19:18:25.814  INFO 20776 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-12-25 19:18:25.814  INFO 20776 --- [restartedMain] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-12-25 19:18:25.817  INFO 20776 --- [cluster-ClusterId{value='5e0368a9816e294a32184094', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:54}] to localhost:27017
+2019-12-25 19:18:25.819  INFO 20776 --- [cluster-ClusterId{value='5e0368a9816e294a32184094', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=512800}
+2019-12-25 19:18:25.819  INFO 20776 --- [cluster-ClusterId{value='5e0368a9816e294a32184094', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-12-25 19:18:25.832  INFO 20776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-25 19:18:25.870  INFO 20776 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 19:18:25.913  INFO 20776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-25 19:18:25.914  INFO 20776 --- [restartedMain] c.c.backendmain1.Backend1Application     : Started Backend1Application in 0.408 seconds (JVM running for 1119.144)
+2019-12-25 19:18:25.915  INFO 20776 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-25 19:20:30.859  INFO 20776 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
