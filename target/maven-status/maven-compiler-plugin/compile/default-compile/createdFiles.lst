@@ -1,0 +1,4 @@
+com\cerner\patientmain\MongopatientApplication.class
+com\cerner\patientmain\frontendcontrollers\FrontController.class
+com\cerner\patientmain\frontendEntity\Patient.class
+com\cerner\patientmain\frontendEntity\Address.class

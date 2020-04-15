@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="C:\Users\PB077048\Documents\workspace-sts-3.9.11.RELEASE\mongopatient\target/classes/public">
+    <fileset dir="C:\Users\PB077048\Documents\workspace-sts-3.9.11.RELEASE\mongopatient/src/main/webapp/regfront/build"/>
+  </copy>
+</target>
+</project>
